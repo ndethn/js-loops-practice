@@ -14,12 +14,12 @@ var todos = [
 
 var todosLength = todos.length;
 for (var i = 0; i < todosLength; i++) {
-    console.log(i);
+    console.log(todos[i], i);
 }
 
 // for each loop
-todos.forEach(function(i) {
-    console.log(i);
+todos.forEach(function(todo, i) {
+    console.log(todo, i);
 })
 
 // console.log(todos);
