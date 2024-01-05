@@ -6,6 +6,14 @@ var todos = [
     'eat healthy'
 ];
 
+var todosImportant = [
+    'clean room!',
+    'brush teeth!',
+    'exercise!',
+    'study javascript!',
+    'eat healthy!'
+];
+
 // for loop
 // for (i = 0; i < todos.length; i++) {
 //     // console.log(todos[i] + '!');
@@ -13,14 +21,22 @@ var todos = [
 // }
 
 var todosLength = todos.length;
-for (var i = 0; i < todosLength; i++) {
-    console.log(todos[i], i);
+// for (var i = 0; i < todosLength; i++) {
+//     console.log(todos[i], i);
+// }
+
+// // for each loop
+// todos.forEach(function(todo, i) {
+//     console.log(todo, i);
+// })
+
+//
+function logTodos(todo, i) {
+    console.log(todo, i);
 }
 
-// for each loop
-todos.forEach(function(todo, i) {
-    console.log(todo, i);
-})
+todos.forEach(logTodos);
+todosImportant.forEach(logTodos);
 
 // console.log(todos);
 
