@@ -12,6 +12,16 @@ var todos = [
 //     todos[i] = todos[i] + '!';
 // }
 
+var todosLength = todos.length;
+for (var i = 0; i < todosLength; i++) {
+    console.log(i);
+}
+
+// for each loop
+todos.forEach(function(i) {
+    console.log(i);
+})
+
 // console.log(todos);
 
 // while loop
@@ -30,8 +40,8 @@ var todos = [
 // }
 
 // do while loop
-var counterTwo = 10;
-do {
-    console.log(counterTwo);
-    counterTwo--;
-} while (counterTwo > 0);
+// var counterTwo = 10;
+// do {
+//     console.log(counterTwo);
+//     counterTwo--;
+// } while (counterTwo > 0);
