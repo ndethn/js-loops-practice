@@ -5,3 +5,7 @@ var todos = [
     'study javascript',
     'eat healthy'
 ];
+
+for (i = 0; i < todos.length; i++) {
+    console.log(i);
+}
