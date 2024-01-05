@@ -16,15 +16,22 @@ var todos = [
 
 // while loop
 // increment
-var counterOne = 0;
-while (counterOne < 10) {
-    console.log(counterOne);
-    counterOne++;
-}
+// var counterOne = 0;
+// while (counterOne < 10) {
+//     console.log(counterOne);
+//     counterOne++;
+// }
 
-// decrement
-var counterOne = 10;
-while (counterOne > 0) {
-    console.log(counterOne);
-    counterOne--;
-}
+// // decrement
+// var counterOne = 10;
+// while (counterOne > 0) {
+//     console.log(counterOne);
+//     counterOne--;
+// }
+
+// do while loop
+var counterTwo = 10;
+do {
+    console.log(counterTwo);
+    counterTwo--;
+} while (counterTwo > 0);
