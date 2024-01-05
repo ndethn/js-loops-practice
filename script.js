@@ -7,5 +7,8 @@ var todos = [
 ];
 
 for (i = 0; i < todos.length; i++) {
-    console.log(todos[i]);
+    // console.log(todos[i] + '!');
+    todos[i] = todos[i] + '!';
 }
+
+console.log(todos);
